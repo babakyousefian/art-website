@@ -1,0 +1,905 @@
+
+@media screen and(min-width:720px){
+    
+}
+
+@media screen and(max-width:720px){
+    #left-side
+    {
+        direction: ltr;
+        float: left;
+        width: auto !important;
+        height: auto !important;
+    }
+    #right-side
+    {
+        direction: rtl;
+        float: right;
+        width: auto !important;
+        height: auto !important;
+    }
+    #center-side
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+@font-face {
+    font-family: 'myFonts';
+    src: url('fonts/IRANSans.ttf') , url('fonts/IRANSans\(FaNum\).ttf');
+    font-weight: normal;
+    font-stretch: normal;
+}
+
+.bodyClass
+{
+    top: 0px;
+    margin: 0px auto 0px;
+    padding: 0px;
+    background-color: transparent;
+    background-image: url('logoImage/logoImage1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-origin: border-box;
+    backface-visibility: visible;
+    background-blend-mode: normal;
+}
+
+#coverID
+{
+    min-width: auto !important;
+    max-width: auto !important;
+    min-height: 2000px !important;
+    max-height: 2024px !important;
+    background-color: rgba(0,0,0,1);
+    background: linear-gradient(to bottom , rgba(0,0,0,1) , rgba(0,0,0,0.0) , rgba(255,255,255,0.8));
+    opacity: 1;
+}
+
+#titleID
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    min-width: auto !important;
+    max-width: auto !important;
+    min-height: 123px !important;
+    max-height: auto !important;
+    background-image: url('titleImage/titleImage.jpg');
+    background-attachment: fixed;
+    background-color: aqua;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    backface-visibility: visible;
+    background-origin: padding-box;
+    background-blend-mode: darken;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: geometricPrecision;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    letter-spacing: normal;
+    line-height: normal;
+    word-wrap: normal;
+    word-break: normal;
+    word-spacing: normal;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    direction: rtl;
+    opacity: 1;
+}
+
+#nameTitle
+{
+    max-width: 223px !important;
+    min-width: auto !important;
+    max-height: auto !important;
+    min-height: auto !important;
+    background-color: rgba(23,23,23,0.8);
+    color: bisque;
+    border-radius: 23px;
+    border-top-color: darkmagenta;
+    border-top-width: 1px;
+    border-top-style: ridge;
+    border-right-color: blueviolet;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-color: purple;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-left-color: maroon;
+    border-left-width: 1px;
+    border-left-style: inset;
+    outline-width: 1px;
+    outline-color: mediumvioletred;
+    outline-style: outset;
+    outline-offset: 2px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: geometricPrecision;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    letter-spacing: normal;
+    line-height: normal;
+    word-wrap: normal;
+    word-break: normal;
+    word-spacing: normal;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    direction: rtl;
+    opacity: 1;
+    font-size: xx-large !important;
+    font-family: myFonts , Arial, Helvetica, sans-serif !important;
+    font-weight: lighter !important;
+    font-style: oblique !important;
+    font-variant: normal !important;
+    transition: transform 1s width 2s height 2s;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0.5s;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+#nameTitle:hover
+{
+    cursor: pointer;
+}
+
+@keyframes animation1 {
+    from
+    {
+        max-width: 223px !important;
+        min-width: auto !important;
+        max-height: auto !important;
+        min-height: auto !important;
+        background-color: rgba(23,23,23,0.8);
+        color: bisque;
+        border-radius: 23px;
+        border-top-color: darkmagenta;
+        border-top-width: 1px;
+        border-top-style: ridge;
+        border-right-color: blueviolet;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-bottom-color: purple;
+        border-bottom-width: 1px;
+        border-bottom-style: groove;
+        border-left-color: maroon;
+        border-left-width: 1px;
+        border-left-style: inset;
+        outline-width: 1px;
+        outline-color: mediumvioletred;
+        outline-style: outset;
+        outline-offset: 2px;
+        text-align: center;
+        text-decoration: solid;
+        text-transform: none;
+        text-overflow: clip;
+        text-rendering: geometricPrecision;
+        text-wrap: wrap;
+        text-justify: newspaper;
+        letter-spacing: normal;
+        line-height: normal;
+        word-wrap: normal;
+        word-break: normal;
+        word-spacing: normal;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        direction: rtl;
+        opacity: 1;
+        font-size: xx-large !important;
+        font-family: myFonts , Arial, Helvetica, sans-serif !important;
+        font-weight: lighter !important;
+        font-style: oblique !important;
+        font-variant: normal !important;
+    }
+    to
+    {
+        max-width: 323px;
+        min-width: auto;
+        max-height: auto;
+        min-height: auto;
+        cursor: pointer;
+        font-size: 36px;
+        box-shadow: 23px 23px 23px 5px hotpink inset;
+        transition: transform 1s , width 2s , height 2s;
+    }
+}
+
+#footerID
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    max-width: 100% !important;
+    min-width: auto !important;
+    max-height: 55px !important;
+    min-height: auto !important;
+    background-color: rgba(23,23,23,0.5);
+    color: bisque;
+    border-radius: 23px;
+    border-top-color: darkmagenta;
+    border-top-width: 1px;
+    border-top-style: ridge;
+    border-right-color: blueviolet;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-color: purple;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-left-color: maroon;
+    border-left-width: 1px;
+    border-left-style: inset;
+    outline-width: 1px;
+    outline-color: mediumvioletred;
+    outline-style: outset;
+    outline-offset: 2px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: geometricPrecision;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    letter-spacing: normal;
+    line-height: normal;
+    word-wrap: normal;
+    word-break: normal;
+    word-spacing: normal;
+    direction: ltr;
+    opacity: 1;
+    font-size: xx-large !important;
+    font-family: myFonts , Arial, Helvetica, sans-serif !important;
+    font-weight: lighter !important;
+    font-style: oblique !important;
+    font-variant: normal !important;
+    padding: 23px;
+    margin: 8px;
+}
+
+.glyphicon-home
+{
+    background-color: transparent;
+    color: azure;
+    padding: 23px;
+}
+
+.glyphicon-search
+{
+    background-color: transparent;
+    color: azure;
+    padding: 23px;
+}
+
+.glyphicon-user
+{
+    background-color: transparent;
+    color: azure;
+    padding: 23px;
+}
+
+.fa-list
+{
+    background-color: transparent;
+    color: azure;
+    padding: 0px;
+}
+
+.main-content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    direction: rtl;
+    justify-content: space-around;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    min-width: auto !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    background-color: rgba(23,23,23,0.5);
+    color: bisque;
+    border-radius: 23px;
+    border-top-color: darkmagenta;
+    border-top-width: 1px;
+    border-top-style: ridge;
+    border-right-color: blueviolet;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-color: purple;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-left-color: maroon;
+    border-left-width: 1px;
+    border-left-style: inset;
+    outline-width: 1px;
+    outline-color: mediumvioletred;
+    outline-style: outset;
+    outline-offset: 2px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: geometricPrecision;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    letter-spacing: normal;
+    line-height: normal;
+    word-wrap: normal;
+    word-break: normal;
+    word-spacing: normal;
+    opacity: 1;
+    font-size: xx-large !important;
+    font-family: myFonts , Arial, Helvetica, sans-serif !important;
+    font-weight: lighter !important;
+    font-style: oblique !important;
+    font-variant: normal !important;
+    padding: 8px;
+    margin: 8px;
+}
+
+.main-content > div
+{
+    min-width: auto !important;
+    max-width: 100% !important;
+    min-height: 1400px !important;
+    max-height: 1600px !important;
+    border: 1px groove darkcyan;
+    padding: 8px;
+    margin: 8px;
+}
+
+#ads1 , #ads2 , #ads3 , #ads4 , #ads5 , #ads6 , #ads7 , #ads8
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    direction: rtl;
+    justify-content: space-around;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    min-width: auto !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    background-color: rgba(23,23,23,0.5);
+    color: bisque;
+    border-radius: 23px;
+    border-top-color: darkmagenta;
+    border-top-width: 1px;
+    border-top-style: ridge;
+    border-right-color: blueviolet;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-color: purple;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-left-color: maroon;
+    border-left-width: 1px;
+    border-left-style: inset;
+    outline-width: 1px;
+    outline-color: mediumvioletred;
+    outline-style: outset;
+    outline-offset: 2px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: geometricPrecision;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    letter-spacing: normal;
+    line-height: normal;
+    word-wrap: normal;
+    word-break: normal;
+    word-spacing: normal;
+    opacity: 1;
+    font-size: large !important;
+    font-family: myFonts , Arial, Helvetica, sans-serif !important;
+    font-weight: lighter !important;
+    font-style: oblique !important;
+    font-variant: normal !important;
+    padding: 1px;
+    margin: 1px;
+}
+
+#ads2
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+#ads3
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+
+#ads4
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+#ads5
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+#ads6
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+#ads7
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+#ads8
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+#videoADS1
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+    padding: 8px;
+}
+
+#videoADS2
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+#videoADS3
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+#videoADS4
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+#videoADS5
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+#videoADS6
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+#videoADS7
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+#videoADS8
+{
+    background-attachment: fixed !important;
+    width: 150px;
+    height: 120px;
+}
+
+ul
+{
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 2px;
+    border-top-width: 2px;
+    border-top-color: aquamarine;
+    border-top-style: dashed;
+    border-right-width: 2px;
+    border-right-color: aquamarine;
+    border-right-style: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: aquamarine;
+    border-bottom-style: dashed;
+    border-left-width: 2px;
+    border-left-color: aquamarine;
+    border-left-style: dashed;
+    outline-offset: 4px;
+    outline-width: 2px;
+    outline-color: aqua;
+    outline-style: double;   
+}
+
+ul li
+{
+    border-radius: 2px;
+    border-top-width: 2px;
+    border-top-color: aquamarine;
+    border-top-style: groove;
+    border-right-width: 2px;
+    border-right-color: aquamarine;
+    border-right-style: ridge;
+    border-bottom-width: 2px;
+    border-bottom-color: aquamarine;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-color: aquamarine;
+    border-left-style: ridge;
+    padding: 1px;
+    margin: 1px;
+}
+
+a[title="art"]
+{
+    font-family: myFonts;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:link
+{
+    font-family: myFonts;
+    color: whitesmoke !important;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover
+{
+    cursor: pointer;
+    font-family: myFonts;
+    color: crimson !important;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:visited
+{
+    font-family: myFonts;
+    color: whitesmoke !important;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:active
+{
+    font-family: myFonts;
+    color: gold !important;
+    background-color: rgba(0,0,0,0.4);
+    text-decoration: none;
+    text-transform: none;
+}
+
+#masterNameID
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    direction: rtl;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+
+#masterNameID1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    direction: rtl;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+#boxInfo
+{
+    width: 800px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    resize: none !important;
+    overflow: auto !important;
+    border: 1px groove snow;
+    outline-offset: 2px;
+    outline-width: 1px;
+    outline-color: thistle;
+    outline-style: dotted;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+#img1
+{
+    background-image: url('titleImage/Untitled.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img2
+{
+    background-image: url('titleImage/علی-شادمان.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img3
+{
+    background-image: url('titleImage/Ali_Sadeghi_2019-04-06.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+
+#img4
+{
+    background-image: url('titleImage/images.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img5
+{
+    background-image: url('titleImage/images2.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img6
+{
+    background-image: url('titleImage/Mehran_Ghafourian_2020.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img7
+{
+    background-image: url('titleImage/Mehran_Modiri_at_Saate_5_Asr_movie_press_conference.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img8
+{
+    background-image: url('titleImage/Mohammad_Reza_Golzar_13960427001216636359829477667254_65485.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+#img9
+{
+    background-image: url('titleImage/Reza-Kianian-18.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+
+#img10
+{
+    background-image: url('titleImage/جواد+عزتی.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: scroll;
+    border-radius: 23px;
+    border: 2px solid wheat;
+    width: 123px;
+    height: 123px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+a[title="استاد یوسفیان"]
+{
+    color: transparent;
+    background-color: transparent;
+}
+
+a[title="استاد یوسفیان"]:visited
+{
+    color: transparent;
+    background-color: transparent;
+}
+
+a[title="استاد یوسفیان"]:active
+{
+    color: transparent;
+    background-color: transparent;
+}
+
+a[title="استاد یوسفیان"]:hover
+{
+    cursor: pointer;
+    color: transparent;
+    background-color: transparent;
+}
+
+#setP
+{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: clip;
+    text-shadow: 4px 4px 8px black;
+    text-rendering: geometricPrecision;
+    text-wrap: wrap;
+    line-height: normal;
+    word-wrap: normal;
+    word-break: normal;
+    word-spacing: normal;
+    letter-spacing: normal;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    opacity: 1;
+    margin-right: 30%;
+}
+
+a[title="اخبار هنرمندان"]
+{
+    margin-top: 85px;
+    margin-right: 23px;
+}

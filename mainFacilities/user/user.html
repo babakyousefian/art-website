@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="HTML/XHTML/CSS/HTML5/CSS3/JQUERY/PHP/LARAVEL/BOOTSTRAP/JAVA SCRIPT">
+        <meta name="description" content="sign in or sign up at this KANNON's site">
+        <meta name="author" content="babak yousefian"/>
+        <meta http-equiv="refresh" content="no-refresh"/>
+        <link type="text/css" rel="stylesheet" href="userTheme.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong&effect=neon|fire|emboss|outline"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://kit.fontawesome/694aa21939.js" crossorigin="anonymous"></script>
+        <title>فرم ثبت نام</title>
+    </head>
+
+    <body class="bodyClass">
+
+        <form action="../../finalProject.html" method="get">
+
+            <fieldset id="fieldsetID">
+
+                <legend id="legendID">فرم ثبت نام</legend>
+
+                <i id="setFontsPersian" class="font-effect-fire">نام &nbsp</i><input type="text" name="text" id="firstnameTxt" class="firstnameTxt"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">خانوادگی  &nbsp</i><input type="text" name="text" id="lastnameTxt" class="lastnameTxt"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire"> سن &nbsp</i><input type="number" name="number" id="agenumber" class="agenumber"
+                 min="0" max="120"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">جنسیت &nbsp </i>
+                <input type="radio" value="M" name="gender" id="genderID"><i id="setFontsPersian">آقا</i></input>
+				<input type="radio" value="F" name="gender" id="genderID"><i id="setFontsPersian">خانم</i></input>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">تلفن ثابت &nbsp</i>
+                <input type="tel" name="number" id="Telnumber" class="Telnumber" min="0" max="10000000"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">تلفن همراه &nbsp</i>
+                <input type="tel" name="number" id="Phonenumber" class="Phonenumber" min="0" max="10000000000"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">مدرک &nbsp </i>
+                <input type="text" name="text" id="document" class="document" list="DocumentsList"/>
+                <datalist id="DocumentsList">
+                    <option><i id="setFontsPersian" class="font-effect-neon">دانشجو</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">کاردانی</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">کارشناسی</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">کارشناسی ارشد</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">دکترا</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">دکترای تخصصی</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">دکترای فوق تخصصی</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">استاد تمام</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">پروفسور</i></option>
+                </datalist>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">لطفا توضیحاتی جامع درباره هنر خود بدهید</i><br /><br />
+                <textarea cols="30px" rows="10px" id="textareaID"></textarea><br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">ملیت &nbsp </i>
+                <input type="text" name="text" id="nationalityID" class="nationalityID" list="NationalityList"/>
+                <datalist id="NationalityList">
+                    <option><i id="setFontsPersian" class="font-effect-neon">جمهوری اسلامی ایران</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">افغانستان</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">عراق</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">کویت</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">یمن</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">عربستان</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">هندوستان</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">چین</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">روسیه</i></option>
+                    <option><i id="setFontsPersian" class="font-effect-neon">سایر...</i></option>
+                </datalist>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire">آپلود عکس &nbsp </i>
+                <a href="../../Scripts/script for upload/upload images/uploadImage.html" title="آپلود عکس شما" target="_blank">
+                    <i id="uploadID" class="glyphicon glyphicon-upload"></i>
+                </a> &nbsp;
+
+                <i id="setFontsPersian" class="font-effect-fire">آپلود رزومه &nbsp </i>
+                <a href="../../Scripts/script for upload/upload docs/uploadDocs.html" title="آپلود اطلاعات شما" target="_blank">
+                    <i id="uploadID" class="glyphicon glyphicon-upload"></i>
+                </a><br /><br />
+                
+                <i id="setFontsPersian" class="font-effect-fire"> ایمیل &nbsp</i>
+                <input type="email" name="email" id="emailTxt" class="emailTxt"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire"> پسورد &nbsp</i>
+                <input type="password" name="password" id="passwordTxt" class="passwordTxt"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire"> تکرار پسورد &nbsp</i>
+                <input type="password" name="Password" id="repeatPassword" class="repeatPassword"/>
+                <br /><br />
+
+                <i id="setFontsPersian" class="font-effect-fire"> مرا به خاطر بسپار &nbsp</i>
+                <input type="checkbox" name="checkbox" id="rememberID" class="rememberID"/>
+                <br /><br />
+
+                <input type="reset" name="reset" id="resetID" class="resetID" value="حذف"></input>
+                <input type="submit" name="submit" id="sendID" class="sendID" value="ارسال"></input><br /><br />
+
+                <a href="signedUser/signed.html" title="ورود به حساب کاربری ایجاد شده" target="_blank">
+                    <p id="setFontsPersian" class="font-effect-fire">قبلا ثبت نام کردم؟</p>
+                </a><br /><br />
+            </fieldset>
+
+        </form>
+
+    </body>
+
+</html>

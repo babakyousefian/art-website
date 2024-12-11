@@ -1,0 +1,248 @@
+
+
+@media screen and (min-width:720px){
+    #textareaID
+    {
+        box-sizing: border-box;
+        resize: horizontal;
+        min-width: 223px !important;
+        max-width: 423px !important;
+        min-height: 100px !important;
+        max-height: 123px !important;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width:720px){
+    #textareaID
+    {
+        box-sizing: content-box;
+        resize: horizontal;
+        min-width: 223px !important;
+        max-width: 323px !important;
+        min-height: 100px !important;
+        max-height: 123px !important;
+        overflow: auto;
+    }
+}
+
+.bodyClass
+{
+    top: 0px;
+    margin: 0px auto 0px;
+    padding: 0px;
+    background-image: url('../backgroundImage/24.jpg');
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-blend-mode: darken;
+    backface-visibility: visible;
+    opacity: 1;
+    direction: rtl;
+}
+
+#fieldsetID
+{
+    margin: 23px;
+    padding: 23px;
+    border-radius: 23px;
+    border-top-width: 2px;
+    border-top-color: gold;
+    border-top-style: double;
+    border-right-width: 2px;
+    border-right-color: goldenrod;
+    border-right-style: ridge;
+    border-bottom-width: 2px;
+    border-bottom-color: yellow;
+    border-bottom-style: groove;
+    border-left-width: 2px;
+    border-left-color: orange;
+    border-left-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: outset;
+    outline-offset: 4px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: optimizeLegibility;
+    text-decoration-line: none;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    text-orientation: sideways;
+    direction: rtl;
+    box-shadow: 23px 23px 23px 5px gainsboro inset;
+}
+
+#legendID
+{
+    direction: rtl;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: optimizeLegibility;
+    text-decoration-line: none;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    text-orientation: sideways;
+    font-size: large;
+    font-weight: normal;
+    font-style: oblique;
+    font-variant: normal;
+    font-feature-settings: normal;
+    font-stretch: normal;
+    font-family: myFonts , Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+}
+
+@font-face {
+    font-family: 'myFonts';
+    src: url('../../../fonts/IRANSans.ttf') , url('../../../fonts/IRANSans\(FaNum\).ttf');
+}
+
+@font-face {
+    font-family: 'number';
+    src: url('../../fonts/IRANSans\(FaNum\).ttf');
+}
+
+#setFontsPersian , #sendID , #passwordTxt , #firstnameTxt
+{
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-feature-settings: normal;
+    font-stretch: normal;
+    font-family: myFonts , Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#passwordTxt
+{
+    color: black !important;
+    background-color: azure !important;
+    margin-left: 20px !important;
+}
+
+#firstnameTxt , #passwordTxt
+{
+    color: black !important;
+    background-color: azure;
+    border-radius: 8px;
+    border-top-width: 1px;
+    border-top-color: aqua;
+    border-top-style: double;
+    border-right-width: 1px;
+    border-right-color: aquamarine;
+    border-right-style: ridge;
+    border-bottom-width: 1px;
+    border-bottom-color: darkcyan;
+    border-bottom-style: groove;
+    border-left-width: 1px;
+    border-left-color: darkturquoise;
+    border-left-style: solid;
+    outline-width: 1px;
+    outline-color: black;
+    outline-style: outset;
+    outline-offset: 2px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: optimizeLegibility;
+    text-decoration-line: none;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    text-orientation: sideways;
+    direction: rtl;
+}
+
+#firstnameTxt
+{
+    padding-left: 8px !important;
+}
+
+#rememberID
+{
+    margin-left: 0px;
+}
+
+#sendID
+{
+    color: black !important;
+    background-color: azure;
+    border-radius: 8px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: clip;
+    text-rendering: optimizeLegibility;
+    text-decoration-line: none;
+    text-wrap: wrap;
+    text-justify: newspaper;
+    text-orientation: sideways;
+    direction: rtl;
+}
+
+
+a
+{
+    color: beige;
+}
+
+a:link
+{
+    color: transparent !important;
+    cursor: pointer !important;
+}
+
+a:visited
+{
+    color: chartreuse !important;
+    cursor: pointer !important;
+}
+
+a:active
+{
+    background-color: black !important;
+    color: gold !important;
+    border: 1px solid goldenrod !important;
+    cursor: pointer !important;
+}
+
+a[title="قبلا ثبت نام کردم؟"]
+{
+    color: goldenrod !important;
+    cursor: pointer !important;
+}
+
